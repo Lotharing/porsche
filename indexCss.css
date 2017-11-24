@@ -87,6 +87,8 @@
 }
 /*车型图片*/
 #show_carsx{
+	filter: grayscale(100%);
+	-webkit-filter:grayscale(100%);
 	margin: 0px auto;
 	padding: 20px;
 }
@@ -106,11 +108,15 @@
 /*车辆配置器图片*/
 #show_cars{
 /*	background-color: grey;*/
+	filter: grayscale(100%);
+	-webkit-filter:grayscale(100%);
 	margin: 0px auto;
 	padding: 20px;
 } 
 /*工具与服务*/
 #show_carstool{
+	filter: grayscale(100%);
+	-webkit-filter:grayscale(100%);
 	margin: 0px auto;
 	padding: 20px;
 }
