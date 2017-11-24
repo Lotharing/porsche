@@ -1,0 +1,273 @@
+/*布局从上往下，从左到右布局*/
+#contaier{
+	width: 100%;
+}
+/*保时捷图标div*/
+#head{
+	text-align: center;
+}
+/*保时捷图标*/
+#headimg{
+	margin-top: 0px;
+	background-repeat: no-repeat;
+}
+/*下划线*/
+#bsolid{
+	width: 100%;
+	height: 1px;
+	background-color: gray;
+	float: left;
+}
+/*******************************导航栏*************************************/
+#navigation_bar_ul_li{
+	list-style-type: none;
+	font-size: 23px;
+	margin-left: 0px;
+	float: left;
+}
+/*a 导航栏信息*/
+#navigation_link {
+	margin-left: 28px;
+	line-height: 30px;
+	height: 30px;
+}
+/*导航栏状态 初始,点击过后*/
+#navigation_link:link, #navigation_link:visited {
+	display: block;
+	font-weight: bold;
+	color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*导航栏状态 放上,点击*/
+#navigation_link:hover, #navigation_link:active {
+	color:orange;
+/*	background-color: #9fa0a0;*/
+}
+/**********************************轮播图待做********************************/
+#timer_move{
+	width:  100%;
+	height: 800px;
+	margin-top:  60px;
+	background: url("image/timer/image01.jpg");
+	position: relative;
+	animation: timer 10s infinite;
+	animation-iteration-count: infinite;
+}
+/*#timer{
+	width: 100%;
+	margin: 0px;
+	animation: timer;
+}*/
+/*轮播动画*/
+@keyframes timer{
+    0%   {background:url("image/timer/image02.jpg");}
+    25%  {background:url("image/timer/image03.jpg");}
+    50%  {background:url("image/timer/image04.jpg");}
+    100% {background:url("image/timer/image05.jpg");}
+}
+
+
+
+
+
+/************h 所有车型..标题设置*************/
+.font_cars{
+	margin-top: 60px;
+	background-color: inherit;
+    height: 100%;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+/*车型图片*/
+#show_carsx{
+	margin: 0px auto;
+	padding: 20px;
+}
+/*文字说明布局*/
+.font_info{
+	margin-left: 125px;
+	margin-right: 120px;
+}
+/*文字说明属性*/
+.font_info_p{
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	margin: 0px auto;
+}
+/*车辆配置器图片*/
+#show_cars{
+/*	background-color: grey;*/
+	margin: 0px auto;
+	padding: 20px;
+} 
+/*工具与服务*/
+#show_carstool{
+	margin: 0px auto;
+	padding: 20px;
+}
+/***********************保时捷中国***********************************/
+#show_carsclub{
+	width: 100%;
+	height: 675px;
+	background-color: #323232;
+}
+.font_cars_club{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+}
+/*发现更多图片*/
+#show_carsfind{
+	margin: 0px auto;
+	padding-top: 0px;
+}
+/********************中部分割线以下块布局*******************/
+#footer{
+	margin-left: 135px;
+	width: 85.5%;
+	height: 100%;
+}
+#csolid{
+	width: 100%;
+	height: 1px;
+	margin-top: 100px;
+	background-color: grey;
+}
+/*服务文字横向布局控制*4*/
+#servefont_div{
+	margin-top: 30px;
+}
+.servefont_tr_tdone{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 36px;
+	color: grey;
+}
+.servefont_tr_tdtwo{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 280px;
+	color: grey;
+}
+.servefont_tr_tdthree{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 310px;
+	color: grey;
+}
+.servefont_tr_tdfour{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 360px;
+	color: grey;
+}
+/*购买支持信息布局控制*/
+#serveinfo_div_one{
+	width: 170px;
+	margin-top: 15px;
+	float: left;
+}
+.serveinfo_div_ul_li{
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #505050;
+	padding-top: 25px;
+}
+.serveinfo_div_ul_li:hover{
+	color: #E35858;
+}
+/*在线服务布局*/
+#serveinfo_two{
+	width: 190px;
+	margin-top: 15px;
+	margin-left: 230px;
+	float: left;
+}
+.serveinfo_two_div{
+	font-weight: bold;
+	color: #505050;
+	padding-top: 39px;
+}
+.serveinfo_two_div:hover{
+	color: #E35858;
+}
+/*幕后布局*/
+#serveinfo_div_three{
+	width: 170px;
+	margin-top: 15px;
+	margin-left: 170px;
+	float: left;
+}
+.serveinfo_div_ul_lithree{
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #505050;
+	padding-top: 25px;
+}
+.serveinfo_div_ul_lithree:hover{
+	color: #E35858;
+}
+/*公司布局*/
+#serveinfo_div_four{
+	width: 210px;
+	margin-top: 15px;
+	margin-left: 230px;
+	float: left;
+}
+.serveinfo_div_ul_lifour{
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #505050;
+	padding-top: 25px;
+}
+.serveinfo_div_ul_lifour:hover{
+	color: #E35858;
+}
+/*底部声明*/
+#show_last{
+	margin-top: 450px;
+	width: 100%;
+	height: 300px;
+	background-color: #191F22;
+}
+.show_last_font{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.show_last_speak{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 700px;
+}
+#show_last h6 a{
+	color: #ffffff;
+}
+#show_last h6 a:hover{
+	color: purple;
+}
+/*漂浮置顶功能图片*/
+#float_btn{
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+}
