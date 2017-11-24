@@ -50,8 +50,6 @@
 /**********************************轮播图待做********************************/
 #timer_move{
 	width:  100%;
-	filter: grayscale(100%);
-	-webkit-filter:grayscale(100%);
 	height: 800px;
 	margin-top:  60px;
 	background: url("image/timer/image01.jpg");
@@ -87,8 +85,6 @@
 }
 /*车型图片*/
 #show_carsx{
-	filter: grayscale(100%);
-	-webkit-filter:grayscale(100%);
 	margin: 0px auto;
 	padding: 20px;
 }
@@ -107,16 +103,11 @@
 }
 /*车辆配置器图片*/
 #show_cars{
-/*	background-color: grey;*/
-	filter: grayscale(100%);
-	-webkit-filter:grayscale(100%);
 	margin: 0px auto;
 	padding: 20px;
 } 
 /*工具与服务*/
 #show_carstool{
-	filter: grayscale(100%);
-	-webkit-filter:grayscale(100%);
 	margin: 0px auto;
 	padding: 20px;
 }
