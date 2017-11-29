@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -29,29 +29,29 @@
 	<div><h2 class="font_cars">所有车型</h2></div>
 		<table id="show_carsx">
 		<tr id="show_carsx_tr">
-			<td>
-				<div id="carsx">
+			<td class="show_carsx_tr_td">
+				<div id="cars">
 				<img src="image/carsx/image01.jpg" alt="" id="carsx_one">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsx_tr_td">
 				<div id="cars">
 				<img src="image/carsx/image02.jpg" alt="" id="carsx_two">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsx_tr_td">
 				<div id="cars">
 				<img src="image/carsx/image03.jpg" alt="" id="carsx_three">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsx_tr_td">
 				<div id="cars">
-				<img src="image/carsx/image04.jpg" alt="" id="carsx_three">
+				<img src="image/carsx/image04.jpg" alt="" id="carsx_four">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsx_tr_td">
 				<div id="cars">
-				<img src="image/carsx/image05.jpg" alt="" id="carsx_three">
+				<img src="image/carsx/image05.jpg" alt="" id="carsx_five">
 				</div>
 			</td>
 		</tr>
@@ -63,29 +63,29 @@
 	<div><h2 class="font_cars">车辆配置器</h2></div>
 	<table id="show_cars">
 		<tr id="show_cars_tr">
-			<td>
+			<td class="show_cars_tr_td_last">
 				<div id="cars">
 					<img src="image/btn/last.png" id="last" onclick="playLast()" 
 					onmousedown="this.src='image/btn/last_down.png'" 
 					onmouseup="this.src='image/btn/last.png'">
 				</div>
 			</td>
-			<td>
+			<td class="show_cars_tr_td">
 				<div id="cars">
 				<img src="image/car/image01.jpg" alt="" id="cars_one">
 				</div>
 			</td>
-			<td>
+			<td class="show_cars_tr_td">
 				<div id="cars">
 				<img src="image/car/image02.jpg" alt="" id="cars_two">
 				</div>
 			</td>
-			<td>
+			<td class="show_cars_tr_td">
 				<div id="cars">
 				<img src="image/car/image03.jpg" alt="" id="cars_three">
 				</div>
 			</td>
-			<td>
+			<td class="show_cars_tr_td_next">
 				<div>
 					<img src="image/btn/next.png" id="next" onclick="playNext()"
 					onmousedown="this.src='image/btn/next_down.png'" 
@@ -98,22 +98,22 @@
 	<div><h2 class="font_cars">工具与服务</h2></div>
 	<table id="show_carstool">
 		<tr id="show_carstool_tr">
-			<td>
+			<td class="show_carstool_tr_tds">
 				<div id="cars">
 					<img src="image/tools/image01.jpg" alt="" id="carstool_one">
 				</div>
 			</td>
-			<td>
+			<td class="show_carstool_tr_td">
 				<div id="cars">
 					<img src="image/tools/image02.jpg" alt="" id="carstool_two">
 				</div>
 			</td>
-			<td>
+			<td class="show_carstool_tr_td">
 				<div id="cars">
 					<img src="image/tools/image03.jpg" alt="" id="carstool_three">
 				</div>
 			</td>
-			<td>
+			<td class="show_carstool_tr_td">
 				<div id="cars">
 					<img src="image/tools/image04.jpg" alt="" id="carstool_four">
 				</div>
@@ -128,22 +128,22 @@
 	<div><h2 class="font_cars">发现更多</h2></div>
 	<table id="show_carsfind">
 		<tr id="show_carsfind_tr">
-			<td>
+			<td class="show_carsfind_tr_td">
 				<div id="cars">
 					<img src="image/find/image01.jpg" alt="" id="carsfind_one">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsfind_tr_td">
 				<div id="cars">
 					<img src="image/find/image02.jpg" alt="" id="carsfind_two">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsfind_tr_td">
 				<div id="cars">
 					<img src="image/find/image03.jpg" alt="" id="carsfind_three">
 				</div>
 			</td>
-			<td>
+			<td class="show_carsfind_tr_td">
 				<div id="cars">
 					<img src="image/find/image04.jpg" alt="" id="carsfind_four">
 				</div>
@@ -151,11 +151,10 @@
 		</tr>
 	</table>
 <!-- ********************分割线下布局 ************************-->
-	<div id="footer">
 	<div id="csolid"></div>
 	<div id="servefont_div">
-		<table>
-			<tr id="servefont_tr">
+		<table class="servefont_div_table">
+			<tr id="servefont_div_table_tr">
 				<td class="servefont_tr_tdone">购买支持</td>
 				<td class="servefont_tr_tdtwo">在线服务</td>
 				<td class="servefont_tr_tdthree">幕后</td>
@@ -163,6 +162,8 @@
 			</tr>
 		</table>
 	</div>
+
+	<div id="footer">
 	<div id="serveinfo_div_one">
 		<ul id="serveinfo_div_ul">
 			<li class="serveinfo_div_ul_li">打造您的保时捷</li>
@@ -171,9 +172,13 @@
 			<li class="serveinfo_div_ul_li">查找经销商</li>
 		</ul>
 	</div>
-	<div id="serveinfo_two">
-		<div class="serveinfo_two_div">订阅</div>
+
+	<div id="serveinfo_div_two">
+		<ul id="serveinfo_div_ul">
+			<li class="serveinfo_div_ul_li">订阅</li>
+		</ul>
 	</div>
+
 	<div id="serveinfo_div_three">
 		<ul id="serveinfo_div_ul">
 			<li class="serveinfo_div_ul_lithree">赛车&活动</li>
@@ -181,6 +186,7 @@
 			<li class="serveinfo_div_ul_lithree">保时捷驾驶体验</li>
 			<li class="serveinfo_div_ul_lithree">参观博物馆</li>
 	</div>
+
 	<div id="serveinfo_div_four">
 		<ul id="serveinfo_div_ul">
 			<li class="serveinfo_div_ul_lifour">新闻发布</li>
@@ -190,6 +196,7 @@
 			<li class="serveinfo_div_ul_lifour">Christophours杂志</li>
 		</ul>
 	</div>
+
 	</div>
 	
 	<div id="show_last">

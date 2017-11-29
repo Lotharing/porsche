@@ -74,7 +74,7 @@
 
 
 
-/************h 所有车型..标题设置*************/
+/************h 所有车型..标题设置************************************/
 .font_cars{
 	margin-top: 60px;
 	background-color: inherit;
@@ -83,10 +83,32 @@
 	font-size: 35px;
 	font-weight: bold;
 }
-/*车型图片*/
+/**************************车型图片*********************************/
 #show_carsx{
+	width: 100%;
 	margin: 0px auto;
 	padding: 20px;
+}
+.show_carsx_tr_td{
+	width: 20%;
+}
+#cars{
+	width: 100%;
+}
+#carsx_one{
+	width: 100%;
+	}
+#carsx_two{
+	width: 100%;
+}
+#carsx_three{
+	width: 100%;
+}
+#carsx_four{
+	width: 100%;
+}
+#carsx_five{
+	width: 100%;
 }
 /*文字说明布局*/
 .font_info{
@@ -101,15 +123,42 @@
 	text-align: left;
 	margin: 0px auto;
 }
-/*车辆配置器图片*/
+/****************************车辆配置器图片***************************/
 #show_cars{
+	width: 100%;
 	margin: 0px auto;
 	padding: 20px;
 } 
-/*工具与服务*/
+.show_cars_tr_td_last{
+	width: 5%;
+}
+.show_cars_tr_td{
+	width: 30%;
+}
+.show_cars_tr_td_next{
+	width: 5%;
+}
+#last,#cars_one,#cars_two,#cars_three,#next{
+	width: 100%;
+}
+
+/*******************************工具与服务***************************/
 #show_carstool{
+	width: 100%;
 	margin: 0px auto;
 	padding: 20px;
+}
+.show_carstool_tr_tds{
+	width: 40%;
+}
+.show_carstool_tr_td{
+	width: 20%;
+}
+#carstool_one{
+	width: 100%;
+}
+#carstool_two,#carstool_three,#carstool_four{
+	width: 100%;
 }
 /***********************保时捷中国***********************************/
 #show_carsclub{
@@ -124,54 +173,67 @@
 	text-align: center;
 	padding-top: 30px;
 }
-/*发现更多图片*/
+/***********************发现更多图片**********************************/
 #show_carsfind{
+	width: 90%;
 	margin: 0px auto;
 	padding-top: 0px;
 }
-/********************中部分割线以下块布局*******************/
-#footer{
-	margin-left: 135px;
-	width: 85.5%;
-	height: 100%;
+#show_carsfind_tr_td{
+	width: 25%;
 }
-#csolid{
+#carsfind_one,#carsfind_two,#carsfind_three,#carsfind_four{
 	width: 100%;
+}
+/********************中部分割线以下块布局****************************/
+#csolid{
+	width: 90%;
 	height: 1px;
+	margin: 0px auto;
 	margin-top: 100px;
 	background-color: grey;
 }
 /*服务文字横向布局控制*4*/
 #servefont_div{
+	width: 90%;
+	margin: 0px auto;
 	margin-top: 30px;
 }
+.servefont_div_table{
+	width: 100%;
+}
 .servefont_tr_tdone{
+	width: 25%;
 	font-size: 20px;
 	font-weight: bold;
-	padding-left: 36px;
 	color: grey;
 }
 .servefont_tr_tdtwo{
+	width: 25%;
 	font-size: 20px;
 	font-weight: bold;
-	padding-left: 280px;
 	color: grey;
 }
 .servefont_tr_tdthree{
+	width: 25%;
 	font-size: 20px;
 	font-weight: bold;
-	padding-left: 310px;
 	color: grey;
 }
 .servefont_tr_tdfour{
+	width: 25%;
 	font-size: 20px;
 	font-weight: bold;
-	padding-left: 360px;
 	color: grey;
 }
-/*购买支持信息布局控制*/
+
+#footer{
+	margin: 0px auto;
+	width: 90%;
+}
+/****************************购买支持信息布局控制****************/
 #serveinfo_div_one{
-	width: 170px;
+	width: 25%;
 	margin-top: 15px;
 	float: left;
 }
@@ -186,14 +248,20 @@
 .serveinfo_div_ul_li:hover{
 	color: #E35858;
 }
-/*在线服务布局*/
-#serveinfo_two{
-	width: 190px;
+/*ul 内部文字取消无序图标位置*/
+#serveinfo_div_ul{
+	margin-left: -35px;
+}
+/******************************在线服务布局*********************/
+#serveinfo_div_two{
+	display: block;
+	width: 25%;
 	margin-top: 15px;
-	margin-left: 230px;
 	float: left;
 }
 .serveinfo_two_div{
+	display: block;
+	width: 100%;
 	font-weight: bold;
 	color: #505050;
 	padding-top: 39px;
@@ -201,11 +269,10 @@
 .serveinfo_two_div:hover{
 	color: #E35858;
 }
-/*幕后布局*/
+/********************************幕后布局***********************/
 #serveinfo_div_three{
-	width: 170px;
+	width: 25%;
 	margin-top: 15px;
-	margin-left: 170px;
 	float: left;
 }
 .serveinfo_div_ul_lithree{
@@ -219,11 +286,10 @@
 .serveinfo_div_ul_lithree:hover{
 	color: #E35858;
 }
-/*公司布局*/
+/***********************************公司布局********************/
 #serveinfo_div_four{
-	width: 210px;
+	width: 25%;
 	margin-top: 15px;
-	margin-left: 230px;
 	float: left;
 }
 .serveinfo_div_ul_lifour{
@@ -237,7 +303,7 @@
 .serveinfo_div_ul_lifour:hover{
 	color: #E35858;
 }
-/*底部声明*/
+/**********************************底部声明**********************/
 #show_last{
 	margin-top: 450px;
 	width: 100%;
@@ -252,11 +318,11 @@
 	font-weight: bold;
 }
 .show_last_speak{
+	text-align: center;
 	font-size: 16px;
 	font-weight: bold;
 	color: #ffffff;
 	padding-top: 10px;
-	padding-left: 700px;
 }
 #show_last h6 a{
 	color: #ffffff;
