@@ -24,6 +24,4 @@
 		document.getElementById("cars_two").src = cars[1];
 		document.getElementById("cars_three").src = cars[2];
 	}
-	//****************************************轮播图
-	var slideshows = new Array("image/timer/image01.jpg","image/timer/image02.jpg","image/timer/image03.jpg",
-							   "image/timer/image04.jpg","image/timer/image05.jpg");
+	

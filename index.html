@@ -6,6 +6,7 @@
 	<title>中国-保时捷官网</title>
 	<link rel="stylesheet" type="text/css" href="indexCss.css">
 	<script type="text/javascript" src="indexjava.js"></script>
+	<script type="text/javascript" src="slideshows.js"></script>
 </head>
 <body>
 <div id="contaier"> 
@@ -24,7 +25,19 @@
 			<li id="navigation_bar_ul_li"><a href="#h2" id="navigation_link">私人服务</a></li>
 		</ul>
 	</div>
-	<div id="timer_move"><img id="timer" src=""></div>
+
+
+	<div id="show_photo">
+		<div id="carousel_btn_group">
+			<ul id="carousel_btn_group_ul">
+				<li id="carousel_btn_group_li"><img src="image/btn/switch.png" onclick="switchBg(this)" name="check" id="1"></li>
+				<li id="carousel_btn_group_li"><img src="image/btn/switch_down.png" onclick="switchBg(this)" name="check" id="2"></li>
+				<li id="carousel_btn_group_li"><img src="image/btn/switch_down.png"  onclick="switchBg(this)" name="check" id="3"></li>
+			</ul>
+		</div>
+	</div>
+
+
 	<a name="h1"></a>
 	<div><h2 class="font_cars">所有车型</h2></div>
 		<table id="show_carsx">
@@ -150,6 +163,16 @@
 			</td>
 		</tr>
 	</table>
+	<div id="findinfo">
+		<table class="findinfo_table">
+			<tr id="findinfo_table_tr">
+				<td class="findinfo_table_tr_td">车主推荐计划</td>
+				<td class="findinfo_table_tr_td">保时捷检测活动</td>
+				<td class="findinfo_table_tr_td">保时捷功能体验</td>
+				<td class="findinfo_table_tr_td">保时捷用户体验</td>
+			</tr>
+		</table>
+	</div>
 <!-- ********************分割线下布局 ************************-->
 	<div id="csolid"></div>
 	<div id="servefont_div">

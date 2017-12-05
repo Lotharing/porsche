@@ -48,28 +48,35 @@
 /*	background-color: #9fa0a0;*/
 }
 /**********************************轮播图待做********************************/
-#timer_move{
+
+/*小圆点*/
+#carousel_btn_group{
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	width: 100%; 
+}
+#carousel_btn_group_li{
+	display: inline;
+}
+/*图片轮播展示*/
+#show_photo{
 	width:  100%;
 	height: 800px;
 	margin-top:  60px;
 	background: url("image/timer/image01.jpg");
 	position: relative;
-	animation: timer 10s infinite;
-	animation-iteration-count: infinite;
+/*	animation: timer 10s infinite;
+	animation-iteration-count: infinite;*/
 }
-/*#timer{
-	width: 100%;
-	margin: 0px;
-	animation: timer;
-}*/
 /*轮播动画*/
-@keyframes timer{
+/*@keyframes timer{
     0%   {background:url("image/timer/image02.jpg");}
     25%  {background:url("image/timer/image03.jpg");}
     50%  {background:url("image/timer/image04.jpg");}
     100% {background:url("image/timer/image05.jpg");}
 }
-
+*/
 
 
 
@@ -184,6 +191,23 @@
 }
 #carsfind_one,#carsfind_two,#carsfind_three,#carsfind_four{
 	width: 100%;
+}
+
+#findinfo{
+	width: 90%;
+	margin: 0px auto;
+}
+.findinfo_table{
+	width: 100%;
+}
+.findinfo_table_tr_td{
+	width: 20%;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+}
+.findinfo_table_tr_td:hover{
+	color: red;
 }
 /********************中部分割线以下块布局****************************/
 #csolid{
